@@ -48,8 +48,8 @@ const EditProduct = () => {
 					{!productData && (
 						<div>
 							<div>
-								<label htmlFor="productName" className="block mb-1">
-									Enter product id to retrieve data
+								<label htmlFor="productName" className="block mb-1 font-medium">
+									Enter Product ID
 								</label>
 								<input
 									type="text"

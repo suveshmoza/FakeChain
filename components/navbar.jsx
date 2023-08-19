@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Button from './Button';
 
 const Nav = () => {
 	return (
@@ -7,16 +8,8 @@ const Nav = () => {
 				<button className="text-2xl font-bold">FakeChain</button>
 			</Link>
 			<ul className="flex items-center gap">
-				<Link href="/verify">
-					<p className="py-2 px-4 text-sm bg-blue-500 text-white font-medium rounded-xl ml-4">
-						Verify
-					</p>
-				</Link>
-				<Link href="/dashboard">
-					<p className="py-2 px-4 text-sm bg-red-500 text-white font-medium rounded-xl ml-4">
-						Dashboard
-					</p>
-				</Link>
+				<Button link={'/verify'} color={'blue'} text={'Verify'} />
+				<Button link={'/dashboard'} color={'red'} text={'Dashboard'} />
 			</ul>
 		</nav>
 	);

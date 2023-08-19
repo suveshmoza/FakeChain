@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import MyContract from '../../../../build/contracts/ProductRegistry.json';
+// import MyContract from '../../../../build/contracts/ProductRegistry.json';
+import MyContract from '../../../../ethereum/ProductRegistry.json';
 import moment from 'moment';
 
 const ProductDetails = ({ productData }) => {

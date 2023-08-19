@@ -35,9 +35,9 @@ const MyForm = () => {
 	};
 
 	return (
-		<div className="flex items-center justify-center mt-20">
-			<form className="w-64">
-				<div className="mb-4">
+		<div className="flex items-center justify-center mt-20 w-full">
+			<form className="w-92 border-[1.2px] rounded-lg shadow-xl p-8 ">
+				<div className="mb-4 ">
 					<label
 						htmlFor="product-id"
 						className="block mb-2 text-sm font-medium text-gray-700"
@@ -47,7 +47,7 @@ const MyForm = () => {
 					<input
 						type="text"
 						id="product-id"
-						className={`w-full p-2 border ${
+						className={`w-full p-2 border rounded-lg ${
 							isValid ? 'border-gray-300' : 'border-red-500'
 						}`}
 						value={productId}

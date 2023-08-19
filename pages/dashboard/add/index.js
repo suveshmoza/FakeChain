@@ -63,13 +63,15 @@ const AddProduct = () => {
 	};
 
 	return (
-		<div className=" p-4">
+		<div className="p-4">
 			<div className="flex items-center justify-center gap-4">
-				<div className="max-w-md w-full bg-white p-6 border rounded-xl shadow-xl ">
-					<h2 className="text-2xl mb-4 text-center">Add Product</h2>
+				<div className="max-w-md w-full bg-white p-6 border rounded-xl shadow-2xl ">
+					<h2 className="text-2xl mb-4 text-center font-semibold">
+						Add Product
+					</h2>
 					<form className="space-y-4">
 						<div>
-							<label htmlFor="productName" className="block mb-1">
+							<label htmlFor="productName" className="block mb-1 ">
 								Product Name:
 							</label>
 							<input
