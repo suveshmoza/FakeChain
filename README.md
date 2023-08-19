@@ -9,6 +9,10 @@ This repository contains a project that aims to provide a solution for identifyi
 - **Decentralization:** The blockchain network is distributed among multiple nodes, ensuring no central authority controls the verification process.
 - **Transparency:** All product information and verification records are transparently stored on the blockchain, enabling anyone to verify the authenticity of a product.
 
+|![](https://drive.google.com/uc?export=view&id=1e4b9U83CxX24Fk-Wcmx9fy0HEuFvBgGr)|![](https://drive.google.com/uc?export=view&id=1ubJDKN6De6JoViucr4prpQSYeGcqgM-p)|![](https://drive.google.com/uc?export=view&id=12vQ67qG7KOFeUcGGSDdGcNK3C8DBo9xf)|
+|-|-|-|
+|HomePage|Dashboard|Verify
+
 ### Installation
 To install and run this project locally, follow these steps:
 
